@@ -1,3 +1,13 @@
 {
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "name": "BigQuery",
+            "authenticator": "SERVICE_ACCOUNT",
+            "location": "us",
+            "previewLimit": 50,
+            "driver": "BigQuery",
+            "keyfile": "C:\\Users\\Hoang\\OneDrive\\Desktop\\Projects\\brooklyncasestudy_collision\\linkedininsightscase-9ef4c28fb738.json"
+        }
+    ]
 }
