@@ -4,7 +4,7 @@ Analysis of New York Motor Vehicle Collisions, using data provided provided by t
 ## Data
 The source dataset can be viewed here: https://console.cloud.google.com/marketplace/details/city-of-new-york/nypd-mv-collisions 
 
-### Tools
+## Tools
 * Keynote
 * Google Big Query
 * Python
@@ -12,4 +12,7 @@ The source dataset can be viewed here: https://console.cloud.google.com/marketpl
 ## Question: 
 Analyze data on New York motor vehicle collisions (details below) from Jan 2014 to Dec 2017. How can we reduce the number of accidents in Brooklyn?
 
+
+## Notes:
+For Big Query, you will need authentication to query the data, please refer to https://cloud.google.com/bigquery/docs/use-service-accounts in how to get the json file needed.
 
