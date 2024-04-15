@@ -1,6 +1,16 @@
 -- QUERY 1
 -- Get the data in scope for the analysis
+SELECT*
+  FROM
+    `bigquery-public-data.new_york.nypd_mv_collisions`
+  WHERE
+    borough = "BROOKLYN"
+    AND cast(timestamp as date) between "2014-01-01" AND "2017-12-31";
 
+
+-- QUERY 2
+-- What is the most common factor in a motor vehicle collision in Brooklyn? 
+-- This query counts the number of collisions for each collision type, in descending order.
 WITH brookyn_data_2014_2017 AS (
   SELECT*
   FROM
@@ -9,11 +19,6 @@ WITH brookyn_data_2014_2017 AS (
     borough = "BROOKLYN"
     AND cast(timestamp as date) between "2014-01-01" AND "2017-12-31"
 )
-
--- QUERY 2
--- What is the most common factor in a motor vehicle collision in Brooklyn? 
--- This query counts the number of collisions for each collision type, in descending order.
-
 SELECT
   contributing_factor_vehicle_1 AS collision_factor,
   COUNT(*) num_collisions
@@ -109,12 +114,5 @@ SELECT
 FROM
   `bigquery-public-data.new_york.nypd_mv_collisions`;
 
-SELECT
-  *
-FROM
-  `bigquery-public-data.new_york.nypd_mv_collisions`
-WHERE
-  borough = "BROOKLYN"
-  AND cast(timestamp as date) between "2014-01-01" AND "2017-12-31";
 
 
