@@ -13,7 +13,7 @@ The source dataset can be viewed here: https://console.cloud.google.com/marketpl
 Analyze data on New York motor vehicle collisions (details below) from Jan 2014 to Dec 2017. How can we reduce the number of accidents in Brooklyn?
 
 ## Analysis
-![alt text](./images/A.%20When%20are%20the%20accidents.png "When are the Accidents?")
+![alt text](./images/Summary%20Dashboard.png "Summary")
 ## Notes:
 For Big Query, you will need authentication to query the data, please refer to https://cloud.google.com/bigquery/docs/use-service-accounts in how to get the json file needed.
 
