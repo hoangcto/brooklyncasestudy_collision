@@ -5,7 +5,7 @@ Analysis of New York Motor Vehicle Collisions, using data provided provided by t
 The source dataset can be viewed here: https://console.cloud.google.com/marketplace/details/city-of-new-york/nypd-mv-collisions 
 
 ## Tools
-* Keynote
+* Google Slides
 * Google Big Query
 * Python
 
