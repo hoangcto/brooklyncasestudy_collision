@@ -15,6 +15,11 @@ Analyze data on New York motor vehicle collisions (details below) from Jan 2014 
 
 ## Analysis
 ![alt text](./images/Summary%20Dashboard.png "Summary")
+
+## Final Presentation
+<a href="HoangTo_BrooklynCollisionCase.pdf">Link</a>
+
+
 ## Notes:
 For Big Query, you will need authentication to query the data, please refer to https://cloud.google.com/bigquery/docs/use-service-accounts in how to get the json file needed.
 
